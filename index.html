@@ -38,7 +38,8 @@
                   name="time"
                   value="morning"
                   class="search-form__checkbox visually-hidden"
-                />
+                  tabindex="-1"
+                /> <!-- Без запрета выбрать input браузер не фокусируется на label -->
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Утро</span>
               </label>
@@ -48,6 +49,7 @@
                   name="time"
                   value="afternoon"
                   class="search-form__checkbox visually-hidden"
+                  tabindex="-1"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">День</span>
@@ -58,6 +60,7 @@
                   name="time"
                   value="night"
                   class="search-form__checkbox visually-hidden"
+                  tabindex="-1"
                 />
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Ночь</span>

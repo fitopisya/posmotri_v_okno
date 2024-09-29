@@ -231,7 +231,7 @@ input[type="checkbox"]:checked + span {
   background-position: center;
 }
 
-input[type="text"]:focus {
+input.search-form__textfield:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
@@ -271,11 +271,6 @@ input[type="text"]:focus {
   inline-size: 399px;
 }
 
-button:focus-visible {
-  outline: 1px solid #fff;
-  outline-offset: 1px;
-}
-
 .content__video-card:hover {
   cursor: pointer;
 }
@@ -287,14 +282,14 @@ button:focus-visible {
   cursor: pointer;
 }
 
-.search-form__label:focus-visible {
-  outline: 1px solid #fff;
-}
-
 .search-form__label:hover > span {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-offset: 1pxs;
+}
+
+.search-form__label:focus-visible {
+  outline: 1px solid #fff;
 }
 
 a:focus {
@@ -303,11 +298,6 @@ a:focus {
 
 .content__list a:focus-visible {
   outline: 1px solid #fff;
-}
-
-.content__video-card:focus-visible {
-  outline: 1px solid #fff;
-  appearance: none;
 }
 
 .search-form__checkbox-list label {

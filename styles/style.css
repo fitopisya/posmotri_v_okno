@@ -298,6 +298,7 @@ a:focus {
 
 .content__list a:focus-visible {
   outline: 1px solid #fff;
+  outline-offset: -1px;
 }
 
 .search-form__checkbox-list label {

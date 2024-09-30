@@ -55,8 +55,8 @@ ol {
   align-items: flex-end;
   gap: 30px;
   margin: 0;
-  inline-size: 1140px;
   padding-top: 50px;
+  inline-size: 1140px;
 }
 
 .result {
@@ -114,7 +114,7 @@ ol {
   align-items: flex-start;
   padding: 1px 0 2px 2px;
   max-inline-size: 398px;
-  max-block-size: 107px;;
+  max-block-size: 107px;
 }
 
 .content__video-card-thumbnail {
@@ -150,6 +150,8 @@ ol {
 }
 
 .content__video-card-title {
+  margin-bottom: 6px;
+  padding-top: 3px;
   overflow: hidden;
   color: #fff;
   font-family: Oswald, sans-serif;
@@ -160,8 +162,6 @@ ol {
   text-overflow: ellipsis;
   white-space: nowrap;
   max-inline-size: 200px;
-  padding-top: 3px;
-  margin-bottom: 6px;
 }
 
 .content__video-card-description {
@@ -217,7 +217,7 @@ fieldset {
 }
 
 .search-form__label-text {
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 18px;
 }
 
@@ -288,7 +288,7 @@ input.search-form__textfield:focus-visible {
 .search-form__label:hover > span {
   text-decoration: underline;
   text-decoration-skip-ink: none;
-  text-underline-offset: 1pxs;
+  text-underline-offset: 1px;
 }
 
 .search-form__label:focus-visible {

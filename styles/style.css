@@ -100,7 +100,7 @@ ol {
 }
 
 .content__list {
-  overflow: auto;
+  overflow: hidden auto;
   block-size: 298px;
   max-inline-size: 100%;
 }
@@ -161,7 +161,7 @@ ol {
   text-transform: uppercase;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-inline-size: 200px;
+  inline-size: 200px;
 }
 
 .content__video-card-description {

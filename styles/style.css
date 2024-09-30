@@ -101,7 +101,6 @@ ol {
 
 .content__list {
   overflow: auto;
-  overflow: hidden scroll;
   block-size: 298px;
   max-inline-size: 100%;
 }
@@ -140,6 +139,10 @@ ol {
   margin-top: 2px;
   color: currentColor;
   text-decoration: none;
+}
+
+.content__card-link:active {
+  background-color: #545050;
 }
 
 .content__card-link_current {

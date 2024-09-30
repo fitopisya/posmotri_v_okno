@@ -100,7 +100,7 @@ ol {
 }
 
 .content__list {
-  overflow: hidden auto;
+  overflow: auto;
   block-size: 298px;
   max-inline-size: 100%;
 }
